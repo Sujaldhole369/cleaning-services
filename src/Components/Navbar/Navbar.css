@@ -1,0 +1,76 @@
+.navbar{
+    height: 70px;
+    width: 63vw;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 6px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* background: skyblue; */
+}
+.weblogo{
+    height: 49.77px;
+    width: 160px;
+    margin-left: 32px;
+}
+.list-items ul li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 600;
+    color: #0C59D9;
+    font-size: 16px;
+    cursor: pointer;
+}
+.list-items ul{
+    display: flex;
+    transform: translateX(40px);
+}
+.supportpng{
+    height: 35px;
+    width: auto;
+    color: white;
+}
+.contact{
+    display: flex;
+
+    align-items: center;
+    background: #0C59D9;
+    height: 70px;
+    width: 256px;
+    /* border: 2px solid red; */
+    transform: translateX(2px);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    justify-content: center;
+}
+.logo-socioimg{
+    height: 25px;
+    width: 25px;
+    transform: translateY(40px);
+    margin: 0 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-socioimg:hover {
+    transform: scale(1.2) rotate(6deg);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+.number{
+    display: flex;
+    flex-direction: column;
+    
+}
+.number p{
+    transform: translateY(15px) translateX(10px);
+    font-size: 12px;
+    color: white;
+    
+}
+.num{
+    font-size: 17px;
+    color: white;
+}
