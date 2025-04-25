@@ -1,20 +1,15 @@
-import './App.css';
+import "./App.css";
 
+import Main from "./Components/Main/Main";
 
-import Main from './Components/Main/Main';
-
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
-   
-
-   <div>
-     <Navbar/>
-     <Main/>
-   </div>
-    
-
+    <div>
+      <Navbar />
+      <Main />
+    </div>
   );
 }
 
